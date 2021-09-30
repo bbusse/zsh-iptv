@@ -1,4 +1,4 @@
-# zsh-firefox
+# zsh-iptv
 Z shell functions for IPTV streaming with [mpv](https://mpv.io/)
 
 ## Installation
