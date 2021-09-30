@@ -1,4 +1,4 @@
-source ~/
+source zsh-iptv-data.zsh
 function tv-3sat() { tv "${URL_STREAM_3SAT}" }
 function tv-arte() { tv "${URL_STREAM_ARTE}" }
 function tv-ard() { tv "${URL_STREAM_ARD}" }
