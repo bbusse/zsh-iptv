@@ -22,3 +22,5 @@ URL_STREAM_WDR="https://wdrfsgeo-lh.akamaihd.net/i/wdrfs_geogeblockt@530016/mast
 URL_STREAM_ZDF="https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8"
 URL_STREAM_ZDFINFO="https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8"
 URL_STREAM_ZDFNEO="https://zdf-hls-02.akamaized.net/hls/live/2002461/de/high/master.m3u8"
+
+URL_SHOW_ILLNER="https://www.zdf.de/politik/maybrit-illner"

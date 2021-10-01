@@ -1,4 +1,8 @@
 source ~/.zsh/zsh-iptv/zsh-iptv-data.zsh
+
+cmd="mpv"
+cmd_args="--ao=pulse"
+
 function tv-3sat() { tv "${URL_STREAM_3SAT}" }
 function tv-arte() { tv "${URL_STREAM_ARTE}" }
 function tv-ard() { tv "${URL_STREAM_ARD}" }
@@ -24,6 +28,10 @@ function tv-zdf() { tv "${URL_STREAM_ZDF}" }
 function tv-zdfinfo() { tv "${URL_STREAM_ZDFINFO}" }
 function tv-zdfneo() { tv "${URL_STREAM_ZDFNEO}" }
 
+# Shows
+function tv-illner() { tv "${URL_SHOW_ILLNER}" }
+
 function tv() {
-    mpv "${1}"
+    c=($cmd $cmd_args $1)
+    "${c[@]}"
 }
